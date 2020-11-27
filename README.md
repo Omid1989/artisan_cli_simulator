@@ -3,8 +3,7 @@
 # laravel:artisan_cli
 Cli simulator package for [laravel:artisan]
 # Requirements
-  - `laravel/framework: 7.3`
-  -  `php ^7.3`
+   -  `php ^7.3`
 # Installation
 Just install package:
    - `composer require omid51068/artisan-cli`
