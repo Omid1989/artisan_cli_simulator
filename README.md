@@ -7,6 +7,6 @@ Cli simulator package for [laravel:artisan]
   -  `php ^7.3`
 # Installation
 Just install package:
--`composer require omid51068/artisan-cli`
+   - `composer require omid51068/artisan-cli`
 # Running command
 Simply go to http://you-domain.com/artisan_cli
