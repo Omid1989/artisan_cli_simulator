@@ -10,10 +10,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-        "php": "^7.3"
-             },
-      "autoload": {
+     "autoload": {
         "psr-4": {
             "artisan_cli\\gui\\": "src/"
         }
