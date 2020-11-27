@@ -1,0 +1,22 @@
+{
+    "name": "artisan/cli",
+    "description": "Cli simulator package for [laravel:artisan]",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Omid Ahmadi",
+            "email": "omid1989ahmadi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.3",
+        "laravel/framework": "7.3"
+      },
+      "autoload": {
+        "psr-4": {
+            "artisan_cli\\gui\\": "src/"
+        }
+    }
+}
