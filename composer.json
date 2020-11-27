@@ -1,5 +1,5 @@
 {
-    "name": "artisan/cli",
+    "name": "omid/artisan-gui",
     "description": "Cli simulator package for [laravel:artisan]",
     "type": "library",
     "license": "MIT",
