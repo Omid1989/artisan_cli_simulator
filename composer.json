@@ -14,5 +14,12 @@
         "psr-4": {
             "artisan_cli\\gui\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                 "artisan_cli\\gui\\artisanCliServiceProvider"
+                           ]
+        }
     }
 }
