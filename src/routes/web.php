@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::group(['namespace'=>'artisan_cli\gui\Http\Controllers'],function ()
+Route::group(['namespace'=>'artisan_cli\gui\Http\Controllers', 'middleware' => config('artisan_cli.middleware')],function ()
   {
-    Route::get('/artisan_cli','ArtisanCliController@index');
+    Route::get(config('artisan_cli.route'),'ArtisanCliController@index');
     Route::post('/artisan-cli-runner','ArtisanCliController@runCli');
   });

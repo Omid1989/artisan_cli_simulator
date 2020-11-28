@@ -23,13 +23,15 @@ class artisanCliServiceProvider extends  ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->loadViewsFrom(__DIR__.'/resources/views', 'ArtisanCLI');
+        $this->mergeConfigFrom(__DIR__.'/config/artisan_cli.php', 'artisan_cli');
         $this->publishVendors();
 
     }
     protected function publishVendors()
     {
         $this->publishes([
-            __DIR__.'/resources/views' => resource_path('views/artisanCli')
+            __DIR__.'/resources/views' => resource_path('views/artisanCli'),
+            __DIR__.'/config/artisan_cli.php' => config_path('artisan_cli.php')
         ]);
     }
 }
