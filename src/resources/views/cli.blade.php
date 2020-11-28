@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <style>
         body {
-
+            background: #222;
             font-family: Menlo, Monaco, "Consolas";
             font-size: 16px;
             overflow: hidden;
@@ -157,7 +157,7 @@
 
         .terminal-bar-text {
             position: absolute;
-            margin-top: 3px;
+            margin-top: 6px;
             color: #383838;
             width: 100%;
             text-align: center;
