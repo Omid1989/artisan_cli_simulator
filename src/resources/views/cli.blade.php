@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CLI Artisan Terminal/Libary</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <style>
         body {
-
+            background: #222;
             font-family: Menlo, Monaco, "Consolas";
             font-size: 16px;
             overflow: hidden;
@@ -157,7 +157,7 @@
 
         .terminal-bar-text {
             position: absolute;
-            margin-top: 3px;
+            margin-top: 6px;
             color: #383838;
             width: 100%;
             text-align: center;
